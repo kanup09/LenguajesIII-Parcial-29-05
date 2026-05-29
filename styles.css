@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+}
+
+
+main {
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 300px;
+}
+
+
+label, input, button {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+
+.error {
+    color: red;
+    font-size: 11px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+
+#mensajeExito {
+    color: green;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+
+button {
+    margin-top: 10px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+#btn-preguntas {
+    background-color: #eee;
+}
